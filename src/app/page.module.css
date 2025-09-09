@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: var(--font-aclonica);
+    color: var(--highlights);
+}
+
+.nav {
+    display: flex;
+    gap: 8rem;
+    color: var(--text);
+}
+
+.button {
+    background-color: var(--white);
+    color: var(--text);
+    border: 1px solid var(--highlights);
+    padding: 0.5rem 0.8rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
