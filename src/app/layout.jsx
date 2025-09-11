@@ -1,5 +1,4 @@
-import { Comfortaa } from "next/font/google";
-import { Aclonica } from "next/font/google";
+import { Comfortaa, Aclonica } from "next/font/google";
 
 import "./globals.css";
 
