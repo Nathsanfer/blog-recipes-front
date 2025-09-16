@@ -21,9 +21,9 @@ const Hero = () => {
             </div>
             <div className={styles.heroImageWrapper}>
               <div className={styles.heroImageCircle}>
-                <Image width={460} height={110} src="/images/banner.png" alt="Prato de comida" className={styles.heroImage} />
+                <Image width={630} height={110} src="/images/banner.png" alt="Prato de comida" className={styles.heroImage} />
               </div>
-              <Image width={140} height={50} src="/images/circulo.png" alt="Decoração círculo verde" className={styles.heroDecoration} />
+              <Image width={200} height={50} src="/images/circulo.png" alt="Decoração círculo verde" className={styles.heroDecoration} />
             </div>
           </div>
         </section>

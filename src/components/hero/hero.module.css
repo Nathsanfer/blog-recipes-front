@@ -18,8 +18,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 18px;
-    padding: 0rem 3rem;
+    gap: 3rem;
+    padding: 0rem 5rem;
 }
 
 .icon {
@@ -36,25 +36,26 @@
 .bold {
     font-family: var(--font-aclonica);
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #111;
 }
 
 .green {
     font-family: var(--font-aclonica);
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--highlights);
 }
 
 .description {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #666;
-    max-width: 400px;
+    max-width: 800px;
     font-family: var(--font-comfortaa);
 }
 
 .heroButton {
+    margin-top: 1rem;
     padding: 6px 15px;
     border: 2px solid var(--highlights);
     background: #fff;
@@ -99,6 +100,7 @@
 .heroImage {
     object-fit: cover;
     border-radius: 50%;
+    margin-right: 8rem;
 }
 
 .heroDecoration {
