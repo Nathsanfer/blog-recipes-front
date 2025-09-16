@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.identification {
+    width: 75%;
+    height: 3rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--highlights);
+    border-radius: 20px;
+    box-shadow: 3px 4px 8px var(--highlights);
+}
+
+.identificationTitle {
+    font-family: var(--font-aclonica);
+    font-size: 1.5rem;
+    color: var(--highlights);
+    margin: 3rem;
+}
+
+.information {
+    width: 75%;
+    margin-top: 2rem;
+    background-color: #f9f9f9;
+    display: flex;
+}
+
+.infoText {
+    margin-left: 2rem;
+
+}
+
+.sectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.infoTitle {
+    font-family: var(--font-aclonica);
+    font-size: 1.3rem;
+    color: #111;
+    margin: 1rem 0;
+}
+
+.infoDescription {
+    font-family: var(--font-comfortaa);
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    max-width: 800px;
+}
